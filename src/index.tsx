@@ -4,6 +4,9 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ReactDefaultScreen from './components/ReactDefaultScreen/ReactDefaultScreen';
 import SimpleInterface from './components/SimpleInterface';
+import { getCatFact } from './typescript/classic-promises/classicPromises';
+
+const catApiUrl = 'https://catfact.ninja/fact';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
